@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Exemplo de comentário do HTML -->
+    <title>CONTRATOS APP</title>
+    <meta charset="utf-8">
+    <!--BOOTSTRAP-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" 
+	      type="text/css" 
+		  href="css/estilo.css">
+	<!-- Linkar com o JavaScript -->
+	<script type="text/javascript"
+			src="js/index.js"></script>		  
+  </head>
+  <body>
+    <div class="container">
+      
+
+        <div class="jumbotron text-center">
+          <h1>CONTROLE DE CONTRATOS</h1>
+          <a href="index.html"><img src="img/contrato.jpeg"
+            alt="Ícone de contratos"
+            title="Ícone de contratos"
+            class="figure-img img-fluid rounded"></a>
+            <hr class="my-4">
+          <p class="lead">Aqui você poderá manter o controle de seus contratos</p>
+        </div>
+        
+          
+        <div class="alert alert-warning text-center" role="alert" id="alerta">
+            Sempre atualize seus contratos!
+          </div>
+      <table id="tabela" class="table table-striped table-dark"> 
+        <tr>
+          <th>Data Início</th>
+          <th>Data Fim</th>
+          <th>Tipo de Imóvel</th>
+          <th>Endereço</th>
+          <th>Valor</th>
+          <th></th>
+          <th>Descrição</th>
+          <th></th>
+        </tr>
+        <!--<tr class="impar">
+          <td>21/10/2019</td>
+          <td>Saúde</td>
+          <td>Dentista</td>
+          <td>R$ 250,00</td>
+          <td>
+            <a class="btn btn-outline-warning" href="editar.html">Editar</a>
+            <a class="caixaVermelha fonteBranca"href="apagar.html">Apagar</a>
+          </td>
+        </tr>
+        <tr class="par">
+          <td>23/10/2019</td>
+          <td>Mercado</td>
+          <td>Extra Supermercados</td>
+          <td>R$ 350,00</td>
+          <td>
+            <a class="btn btn-outline-warning" href="editar.html">Editar</a>
+            <a href="apagar.html">Apagar</a>
+          </td>
+        </tr>
+        <tr class="impar">
+          <td>25/10/2019</td>
+          <td>Lazer</td>
+          <td>Cinemark</td>
+          <td>R$ 90,00</td>
+          <td>
+            <a class="btn btn-outline-warning" id="botaoEditar" href="editar.html">Editar</a>
+            <a href="apagar.html">Apagar</a>
+          </td>
+        </tr>-->
+      </table>
+      <a id="botaoAdicionar" class="btn btn-outline-success" href="adicionar.html">Adicionar Contrato</a>
+    </div>
+  </body>
+  
+</html>

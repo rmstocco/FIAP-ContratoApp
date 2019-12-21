@@ -1,0 +1,106 @@
+/*h1
+{
+	/ Propriedades de fonte /
+	color: red;
+	letter-spacing: 3px;
+	font-family: Verdana, Arial;
+	font-size: 26px;
+	text-align: center;
+	
+	/* Propriedades de caixa 
+	border: 1px solid black;
+	width: 70%;
+	height: 70px;
+}
+
+.caixaAzul
+{
+	/* Propriedades de box 
+	border: 1px solid blue;
+	background-color: blue;
+	border-radius: 5px;
+	box-shadow: 3px 5px #888888;
+}
+
+.caixaVermelha
+{
+	/* Propriedades de box 
+	border: 1px solid red;
+	background-color: red;
+	border-radius: 5px;
+	box-shadow: 3px 5px #888888;
+}
+
+
+.fonteBranca
+{
+	/* Propriedades de texto 
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+	font-variant: all-small-caps;
+}
+
+#botaoAdicionar
+{
+	/* Propriedades de espaçamento
+	padding: 5px;
+	position: relative;
+	top: 15px;
+}
+
+#botaoEditar
+{
+	
+}
+/*
+table
+{
+	
+	margin: auto;
+	border-style: none;	
+}
+
+th, td
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: SandyBrown LightSlateGrey;
+}
+
+th
+{
+	background-color: sienna;
+	color: white;
+}
+
+tr.par
+{
+	background-color: brown;
+}
+
+tr.impar
+{
+	background-color: white;	
+}
+*/
+fieldset
+{
+	border-style: none;	
+}
+
+form
+{
+	border: 1px solid black;
+}
+
+label
+{
+	font-weight: bold;
+}
+
+input[type=number]
+{
+	text-align: right;
+}
+
